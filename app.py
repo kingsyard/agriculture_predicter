@@ -2,9 +2,6 @@
 
 import numpy as np;
 import pandas as pd;
-import pymysql
-pymysql.install_as_MySQLdb()
-import MySQLdb
 import matplotlib.pyplot  as plt;
 from sklearn.model_selection  import train_test_split
 from sklearn.linear_model  import LogisticRegression
@@ -226,4 +223,4 @@ def predict1():
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=True)
